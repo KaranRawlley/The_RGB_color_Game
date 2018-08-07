@@ -1,8 +1,20 @@
-body{
+.body{
 	background-color: #232323;
 	margin: 0;
 	font-family: 'Slabo 27px', serif;
 
+}
+#heading {
+	
+		color: white;
+	text-align: center;
+	background-color: steelblue;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	line-height: 1.1;
+	padding: 20px 0;
+	margin-bottom: 0;
 }
 .square{
 	width: 30%;
@@ -18,17 +30,9 @@ body{
 #container{
 	max-width: 600px;
 	margin: 0 auto;
+
 }
-h1{
-	color: white;
-	text-align: center;
-	background-color: steelblue;
-	margin: 0;
-	font-weight: normal;
-	text-transform: uppercase;
-	line-height: 1.1;
-	padding: 20px 0;
-}
+
 
 #stripe{
 	background-color: white;
@@ -44,7 +48,7 @@ h1{
 	background: #232323;
 }
 #currentColor{
-	font-size: 200%;
+	font-size: 130%;
 }
 button{
 	border: none;
